@@ -1,0 +1,283 @@
+:root{
+    --primary-color: #e50914;
+    --dark-color: #141414;
+	--light-color: #f4f4f4;
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* font-family: Faktor; */
+    font-weight: lighter;
+}
+body{
+    background-color: #000;
+    color: #999;
+    
+}
+
+h1,h2,h3,h4,a,p{
+    color: #FFFFFF;
+}
+#header-conatiner{
+    background-image:
+    linear-gradient(
+      to right,
+      #000 40%,
+      transparent 58%
+    ),
+    url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+  background-position: right top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: #000; */
+  height: 100vh;
+    width: 100%;
+    position: relative;
+    
+    
+
+}
+#header-conatiner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* TOP BOTTOM LEFT RIGHT */
+    /* box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; */
+}
+.header1 .img1{
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header1{
+    
+    height: 80px;
+    position: relative;
+    z-index: 2;
+    
+    background-color: var(--dark-color);
+    
+}
+
+
+
+/* .header1 .img2{
+    width: 170x;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+} */
+.header1 a{
+    position: absolute;
+    top: 50%;
+    right: 1.2%;
+    transform: translateY(-50%);
+}
+
+.header2{
+    
+    height: 200px;
+    padding-left: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 9rem;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    
+}
+.header2 h1{
+padding-bottom: 20px;
+font-size: Netflix;
+font-size: 50px;
+
+font-weight: 400;
+
+line-height: 55px;
+
+color: rgb(255, 255, 255)
+}
+.header2 p{
+  opacity: 0.8;
+    padding-bottom: 5px;
+    font-family: Netflix;
+    text-transform: lowercase;
+    
+    font-size: 26px;
+
+    font-weight: 400;
+
+    line-height: normal;
+
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+
+}
+
+.tab-2-content-bottom div{
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+
+/* --------------------------------------------BUTTONS ------------------------------------------------- */
+
+.btn{
+    display: inline-block;
+    border: none;
+    background-color: #fff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.4rem 1.3rem;
+    font-size: 1.2rem;
+    font-family: Netflix;
+    text-transform: capitalize;
+    border-radius: 5px;
+    
+
+    
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn-rounded{
+    border :1px solid var(--dark-color);
+    height: 40px;
+    color: #fff;
+    background-color: var(--primary-color);
+    
+    
+    
+}
+
+.btn-xl{
+    text-align: center;
+    height: 50px;
+    
+    box-shadow: 2px 2px #000000;
+    border: 1px solid var(--dark-color);
+    
+    
+    color: #fff;
+    background-color: var(--primary-color);
+
+}
+/* ----------------------------------------------CONTANER--------------------------------------------------- */
+
+.container{
+    font-family: Netflix;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    background-color: var(--dark-color);
+    
+    display: flex;
+    justify-content: space-between;
+}
+.tab{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    
+
+}
+#tab-1-content{
+
+width: 80%;
+margin-left: 50%;
+transform: translateX(-50%);
+}
+
+.tab-1-content-inner {
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.tab-1-content-inner img{
+  width: 500px;
+}
+.tab-1-content-inner> div{
+  text-align: left;
+}
+
+.tab-1-content-inner >div p{
+  
+  font-family: Netflix;
+  font-size: 1.4rem;
+}
+
+
+
+
+/* ---------------------------------------------TAB CONTENT ------------------------------------------*/
+
+.content-container{
+  text-align: center;
+}
+
+#tab-2-content{
+  width: 80%;
+  
+  font-size: 1.4rem;
+  font-family: Netflix;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#tab-3-content{
+  text-align: center;
+}
+
+
+
+/* FOTTER */
+footer{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: var(--dark-color);
+}
+footer p  small{
+  font-family:sans-serif;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: red;
+}
+footer p small a{
+  font-family:sans-serif;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: #999;
+  padding-right: 3px;
+  text-decoration: none;
+}
+
+.table {
+  padding-left: 5px;
+  padding-right: 10px;
+  width: 80%;
+  height: 500px;
+}
+
+

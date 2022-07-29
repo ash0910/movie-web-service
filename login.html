@@ -1,0 +1,123 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Hover Placeholder With Validation</title>
+	<link rel="stylesheet" href="styles/login.css">
+    <script src="https://kit.fontawesome.com/0bba63b5f1.js" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <style>
+     @font-face {
+            font-family: Roboto;
+            src: url(../Fonts/Roboto-Medium.ttf);
+        }
+        @font-face {
+            font-family: Netflix;
+            src: url(../Fonts/Netflix.otf);
+        }
+    
+  </style>
+</head>
+<body>
+    <header>
+
+        <header>
+        
+            
+            
+            
+            <nav id='menu'>
+                <a href="index.html"><img class="img1" src="images/logo-removebg-preview.png" alt=""></a>
+                
+                <ul>
+                  <li><a href='Homepage.html'>Home</a></li>
+                  <li><a href='http://'>Movies</a>
+                    
+                  </li>
+                  <li><a href='http://'>Tv</a></li>
+                  <li><a  href='http://'>Sports</a></li>
+                  <li><a href='contactUs.html'>Contact</a></li>
+                </ul>
+                <div id="searchbox" >
+                    <input type="text" placeholder="Search movies">
+                    <i class="fa fa-search" aria-hidden="true" style="color: #e50914;" ></i>
+                </div>
+                <a href="#" class="btn">Sign In</a>
+    
+              </nav>
+          
+        
+    </header>
+    </header>
+
+	<div class="container">
+		<h1>REGISTER</h1>
+		<form id="registration_form" novalidate>
+
+
+			<div class="textdiv" >
+              
+				<input type="text" id="form_fname" name="" required="" placeholder="First Name">
+				<span class="error_form" id="fname_error_message"></span>
+				
+			</div>
+
+			<div class="textdiv">
+                	
+				<input type="text" id="form_sname" name="" required="" placeholder="Last Name">
+				<span class="error_form" id="sname_error_message"></span>
+				
+			</div>
+			<div class="textdiv">
+                
+				<input type="email" id="form_email" name="" required="" placeholder="Email Id">
+                
+                    <span class="error_form" id="email_error_message"></span>
+                
+				
+					
+			</div>
+			<div class="textdiv">
+                
+				<input type="password" id="form_password" name="" required="" placeholder="Password">
+                
+                    <span class="error_form" id="password_error_message"></span>
+
+                
+				
+					
+			</div>
+			<div class="textdiv">
+                
+				<input type="password" id="form_retype_password" name="" required="" placeholder="Re-password">
+				<span class="error_form" id="retype_password_error_message"></span>
+					
+			</div>
+			<input type="submit" value="Register" name="">
+		</form>
+	</div>
+    
+    
+
+   <footer>
+    <p>
+        <small>
+        <a href="#">Terms and Privacy</a> 
+            <a href="#">Notice </a> 
+            <a href="#">Send us feedback </a> 
+            Help © 1996-2022, Lightsout.com, Inc. or its affiliates
+        </small> 
+    </p>
+</footer>
+<script src="Script/login.js" ></script>
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/0bba63b5f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/HomePageStyle.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+
+    <script src="https://kit.fontawesome.com/0bba63b5f1.js" crossorigin="anonymous"></script>
+
+    <style>
+         @font-face {
+            font-family: Netflix;
+            src: url(Fonts/Netflix.otf);
+        }
+        @font-face {
+            font-family: Roboto;
+            src: url(Fonts/Roboto-Medium.ttf);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+            
+            
+            
+            <nav id='menu'>
+                <a href="index.html"><img class="img1" src="images/logo-removebg-preview.png" alt=""></a>
+                
+                <ul>
+                  <li><a href='#'>Home</a></li>
+                  <li><a href='http://'>Movies</a>
+                    
+                  </li>
+                  <li><a href='http://'>Tv</a></li>
+                  <li><a  href='http://'>Sports</a></li>
+                  <li><a href='mainSite/contactUs.html'>Contact</a></li>
+                </ul>
+                <div id="searchbox" >
+                    <input type="text" placeholder="Search movies">
+                    <i class="fa fa-search" aria-hidden="true" style="color: #e50914;"  ></i>
+                </div>
+                <a class="btn" href="login.html"> Sign In</a>
+    
+              </nav>
+          
+        
+    </header>
+    <section id="section-top">
+        <div class="carousel1-container">
+            <div class="carousel1">
+                
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper" >
+                          <!-- Slides -->
+                          <div class="swiper-slide">
+                            <div>
+
+                            
+
+                            
+                              <div>
+                                <span class="title">LOKI</span>
+                                <span class="genre">Action Drama Sci-fi <sup style="font-size: 1.3rem;">.</sup> 2hrs 15min</span>
+                                <p>Loki, the God of Mischief , steps out of his brother's shadow to embark on an adventure that takes place after the events of Avengers: Endgame.</p>
+                                <br>
+                                <span style="opacity: 0.9; cursor:pointer; "><i style="width: 1.2rem;" class="fa-solid fa-play"></i>Watch Now <i class="fa-solid fa-plus" style="width: 1.2rem;margin-left: 7px; " ></i>Watchlist <i class="fa-solid fa-share-nodes" style="width: 1.2rem;margin-left: 7px;" ></i>Share</span>
+                                
+                              </div>
+                            </div>
+
+                          </div>
+                           
+                           
+                             
+                          </div>
+
+                          <div class="swiper-slide">
+                            
+                              <div >
+                                <span class="title">LUKA</span>
+                                <span class="genre">Kids </span>
+                                <p>Set in a beautiful seaside town on the Italian Riviera, the original animated feature is a coming-of-age story about one young boy experiencing an unforgettable summer filled with gelato, pasta and endless scooter rides. Luca shares these adventures with his newfound best friend, but all the fun is threatened by a deeply held secret: he is a sea monster from another world just below the water's surface.</p>
+                              </div>
+
+                          </div>
+                           
+                          <div class="swiper-slide">
+                            
+                              <div  >
+                                <span class="title">LOKI</span>
+                                <span class="genre">Action Drama Sci-fi</span>
+                                <p>Loki, the God of Mischief , steps out of his brother's shadow to embark on an adventure that takes place after the events of Avengers: Endgame.</p>
+                            
+                              </div>
+                          </div>
+                            
+                          ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                      
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                      </div> 
+                   
+                
+
+            </div>
+        </div>
+    </section>
+    <h2 class="headingVideoCards">Top Grossing</h2>
+    <section>
+      
+      <div class="video-card-container">
+        <div class="video-card" onmouseover="play()">
+          <img class="video-card-image" src="https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/disney.PNG" alt="">
+          <video class="card-video" src="../images/videos/disney.mp4"></video>
+        </div>
+
+        <div class="video-card" onmouseover="play()">
+          <img class="video-card-image" src="https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/marvel.PNG" alt="">
+          <video class="card-video" src="../images/videos/marvel.mp4"></video>
+        </div>
+
+        <div class="video-card" onmouseover="play()">
+          <img class="video-card-image" src="https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/geographic.PNG" alt="">
+          <video class="card-video" src="../images/videos/geographic.mp4"></video>
+        </div>
+
+        <div class="video-card" onmouseover="play()">
+          <img class="video-card-image" src="https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/star-wars.PNG" alt="">
+          <video class="card-video" src="../images/videos/star-war.mp4"></video>
+        </div>
+
+        <div class="video-card" onmouseover="play()">
+          <img class="video-card-image" src="https://raw.githubusercontent.com/kunaal438/disney-plus-clone/master/images/pixar.PNG" alt="">
+          <video class="card-video" src="../images/videos/pixar.mp4"></video>
+        </div>
+      </div>
+    </section>
+    <h2 class="headingVideoCards">New Releases</h2>
+    <section>
+      
+      <div class="moviesContainer">
+        <div class="moviecards">
+          <img src="https://m.media-amazon.com/images/M/MV5BYWI2ODNjMDktZjcxNS00YThkLTljMDUtMGIyOTg3ZjY2MjlhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg" alt="">
+          <div class="movietitle" style="color: white;" >
+              <h5>MAJOR</h5>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <p>2hrs 15min</p>
+          </div>
+        </div>
+        <div class="moviecards">
+          <img src="https://m.media-amazon.com/images/M/MV5BNDVkZTc4OTktNTAyOC00MzQxLThiZjMtM2M3MTlmYzFjY2FkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+          <div class="movietitle" style="color: white;" >
+            <h5>SPIDERHEAD</h5>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            
+            <p>2hrs 15min</p>
+        </div>
+        </div>
+        <div class="moviecards">
+          <img src="https://m.media-amazon.com/images/M/MV5BZGNjYjQ3NjgtZWM0NS00MTY5LTlkZWMtODZlNzhkNTU3MzZiXkEyXkFqcGdeQXVyMjM2OTI3Mzk@._V1_FMjpg_UX1000_.jpg" alt="">
+          <div class="movietitle" style="color: white;" >
+            <h5>INTERCEPTOR</h5>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            
+            <p>2hrs 15min</p>
+        </div>
+        </div>
+        <div class="moviecards">
+          <img src="https://m.media-amazon.com/images/M/MV5BMjM1OTMxNzUyM15BMl5BanBnXkFtZTgwNjYzMTIzOTE@._V1_.jpg" alt="">
+          <div class="movietitle" style="color: white;" >
+            <h5>SUICIDE SQUAD</h5>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p>2hrs 15min</p>
+        </div>
+        </div>
+        <div class="moviecards">
+          <img src="https://m.media-amazon.com/images/M/MV5BOGEzYzcxYjAtZmZiNi00YzI0LWIyY2YtOTM0MDFjODU2YTZiXkEyXkFqcGdeQXVyMTQ3Mzk2MDg4._V1_.jpg" alt="">
+          <div class="movietitle" style="color: white;" >
+            <h5>RRR</h5>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p>2hrs 15min</p>
+        </div>
+        </div>
+
+        <div class="moviecards">
+          <img src="https://m.media-amazon.com/images/M/MV5BMWQ3N2EzNjYtMzgwYS00YjdmLThmOTUtMzc4NDUxZjZkY2RhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" alt="">
+          <div class="movietitle" style="color: white;" >
+            <h5>OXYGEN</h5>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            
+            <p>2hrs 15min</p>
+        </div>
+        </div>
+
+        <div class="moviecards">
+          <img src="https://m.media-amazon.com/images/M/MV5BOWY4MmFiY2QtMzE1YS00NTg1LWIwOTQtYTI4ZGUzNWIxNTVmXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" alt="">
+          <div class="movietitle" style="color: white;" >
+            <h5>THE GRAY MAN</h5>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            
+            <p>2hrs 15min</p>
+        </div>
+        </div>
+
+      </div>
+    </section>
+    <footer>
+        <p><small>
+            <a href="#">Terms and Privacy</a> 
+             <a href="#">Notice </a> 
+             <a href="#">Send us feedback </a> 
+             Help © 1996-2022, Lightsout.com, Inc. or its affiliates
+            </small> </p>
+    </footer>
+    <script src="Script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  autoplay:{delay: 3000},
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    
+  },
+
+  
+ 
+});
+    </script>
+</body>
+</html>
